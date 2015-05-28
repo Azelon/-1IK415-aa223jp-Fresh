@@ -26,6 +26,30 @@
                 </ul>
             </nav>
         </header>
+        <form method="POST" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+            <h8>Vad är det du vill lämna?:</h8>
+            <select>
+                <option value="fraga">Fråga</option>
+                <option value="test">Feedback</option>
+            </select>
+            <br>
+            <br>
+            <h8>Rubrik:</h8>
+            <input type="text" name="rubrik" placeholder="Rubrik på medelandet">
+            <br>
+            <br>
+            <h8>Fråga:</h8>
+            <TEXTAREA Name="fraga" placeholder="Skriv medelandet här..."></TEXTAREA>
+            <br>
+            <br>
+            <input type="checkbox" name="mail" value="email">Kontakta mig via mail
+            <br>
+            <br>
+            <input type="checkbox" name="telefon" value="number">Kontakta mig via telefon
+            <br>
+            <br>
+            <input type="submit" value="Skicka frågan" name="submit">
+        </form>
     </div>
     <footer>
         <p>Ansvarig för materialet på denna sida är Alen Adzemovic</p>
