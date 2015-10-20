@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
@@ -32,24 +32,32 @@
                 <option value="fraga">Fråga</option>
                 <option value="test">Feedback</option>
             </select>
+            <fieldset>
+                <legend>Fråga</legend>
+                <h8>Rubrik:</h8>
+                <input type="text" name="rubrik" placeholder="Rubrik på medelandet" required>
+                <br>
+                <br>
+                <h8>Fråga:</h8>
+                <TEXTAREA Name="fraga" placeholder="Skriv medelandet här..." required></TEXTAREA>
+            </fieldset>
             <br>
             <br>
-            <h8>Rubrik:</h8>
-            <input type="text" name="rubrik" placeholder="Rubrik på medelandet">
-            <br>
-            <br>
-            <h8>Fråga:</h8>
-            <TEXTAREA Name="fraga" placeholder="Skriv medelandet här..."></TEXTAREA>
-            <br>
-            <br>
-            <input type="checkbox" name="mail" value="email">Kontakta mig via mail
-            <br>
-            <br>
-            <input type="checkbox" name="telefon" value="number">Kontakta mig via telefon
-            <br>
-            <br>
-            <input type="submit" value="Skicka frågan" name="submit">
-        </form>
+            <fieldset>
+                <legend>Kontaktuppgifter</legend>
+                <input type="checkbox" name="mail" value="email">Kontakta mig via mail
+                <br>
+                <input type="email" name="email" placeholder="Din Email">
+                <br>
+                <br>
+                <input type="checkbox" name="telefon" value="number">Kontakta mig via telefon
+                <br>
+                <input type="text" name="nummer" placeholder="Ditt telefonnummer">
+                <br>
+                <br>
+                <input type="submit" value="Skicka frågan" name="submit">
+                </fieldset>
+</form>
     </div>
     <footer>
         <p>Ansvarig för materialet på denna sida är Alen Adzemovic</p>
