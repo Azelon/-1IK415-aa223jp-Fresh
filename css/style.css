@@ -8,7 +8,7 @@ body{
     height:auto;
     margin-left:12.5%;
     margin-right:12.5%;
-    border:1px solid pink;
+    min-width: 25%;
     overflow:auto;
 }
 
@@ -17,6 +17,7 @@ footer{
    width:100%;
    background:#999;
    overflow:hidden;
+   text-align:center;
 }
 
 nav {
@@ -31,6 +32,7 @@ nav {
 nav a{
     display:block;
     font-size:25px;
+    font-weight:bold;
 }
 
 header{
@@ -76,11 +78,12 @@ form{
     align-content:center;
 }
 
-#content p,h2,h3,a{
-    margin-left:1%;
+#content dl,p,h3,a{
+    margin-left:3%;
+    margin-right:3%;
 }
 
-#content h1{
+h1{
     text-align:center;
 }
 
@@ -88,4 +91,28 @@ form{
     margin-left:25%;
     margin-right:25%;
     margin-bottom:1%;
+}
+
+p{
+    font-family:Calibri;
+}
+
+video{
+    margin-left:1%;
+}
+
+h2{
+        background:url("img/css/scroll.png") no-repeat;
+	padding-left:25px;
+    border-bottom: 1px solid black;
+    margin-left:1%;
+}
+
+.bilditext{
+    float:right;
+    margin-right:1%;
+}
+
+section p{
+    margin-left:3%;
 }
