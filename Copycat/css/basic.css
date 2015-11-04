@@ -1,0 +1,19 @@
+/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+#container {
+    border: 4px solid red;
+    width:600px;
+    margin: auto;
+}
+#topbar {
+    background-color:#51473C;
+    width:600px;
+    height:275px;
+    text-align:right;
+    color:white;
+    font-style:italic;
+    font-size:12px;
+}
+
+#topbar::after {
+    content:url("pics/coffey.jpg");
+}

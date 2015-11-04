@@ -5,75 +5,81 @@
     <html lang="sv">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/print.css" media="print">
     <title>Startsida</title>
 </head>
 
 <body>
-    <div id="wrapper">
-        <header>
-            <a href="#"><img src="css/img/logo.png"></a>
-        </header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html" class="active">Start</a>
-                </li>
-                <li>
-                    <a href="pages/presentation.html">Presentation</a>
-                </li>
-                <li>
-                    <a href="pages/laborationer.html">Laborationer</a>
-                </li>
-                <li>
-                    <a href="pages/kontakt.html">Kontakt</a>
-                </li>
+    <div id="print">
+        <div id="wrapper">
+            <header>
+                <div class="printheader"><div class="noprint"><a href="#"><img src="css/img/logo.png"></a></div></div>
+            </header>
+            <div class="noprint">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html" class="active">Start</a>
+                        </li>
+                        <li>
+                            <a href="pages/presentation.html">Presentation</a>
+                        </li>
+                        <li>
+                            <a href="pages/laborationer.html">Laborationer</a>
+                        </li>
+                        <li>
+                            <a href="pages/kontakt.html">Kontakt</a>
+                        </li>
 
-            </ul>
-        </nav>
-        <div id="content">
-            <h1>Startsida</h1>
-            <br>
-            <br>
-            <h2>Kursblogg</h2>
-            <br>
-            <section>
-                <h3>Hejsan världen!</h3>
-                <p>
-                    På denna blogg kommer jag att skriva några rader om de laborationer jag gör och också publicera material som jag producerar.
-                    <br>
-                    <br>Skrivet av Admin, 2015-05-28
-                </p>
-            </section>
-            <section>
-                <h2>Ville dela med mig av den här coola trailern</h2>
-                <video width="640" height="480" controls id="vidd">
-                    <source src="css/vid/trailer_1080p.ogg" type="video/ogg">
-                </video>
+                    </ul>
+                </nav>
+            </div>
+            <div id="content">
+                <h1>Startsida</h1>
                 <br>
-                <p>Skrivet av Admin, 2015-05-28</p>
-            </section>
-            <section>
-                <h2>Lorem Ipsum</h2>
-                <div class="bilditext"><img src="css/img/bilditxt.png" width="250" height="250"></div><p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer congue eros sit amet posuere finibus. Quisque at velit sit amet lectus semper porta sit amet non lorem. Duis efficitur feugiat tortor. Mauris tempus sapien eget sollicitudin commodo. Quisque fringilla urna quis ligula congue posuere. Fusce sit amet dolor elementum, fringilla sem eu, ultricies neque. Vivamus quis ligula leo. Phasellus mattis velit at tortor egestas volutpat. Sed libero mi, bibendum nec nulla vel, laoreet congue diam. Quisque dapibus nibh et pellentesque tempor.
+                <br>
+                <h2>Kursblogg</h2>
+                <br>
+                <section>
+                    <h3>Hejsan världen!</h3>
+                    <p>
+                        På denna blogg kommer jag att skriva några rader om de laborationer jag gör och också publicera material som jag producerar.
+                        <br>
+                        <br>Skrivet av Admin, 2015-05-28
+                    </p>
+                </section>
+                <section>
+                    <h2>Ville dela med mig av den här coola trailern</h2>
+                    <div class="noprint">
+                        <video width="640" height="480" controls id="vidd">
+                            <source src="css/vid/trailer_1080p.ogg" type="video/ogg">
+                        </video>
+                    </div>
+                    <br>
+                    <p>Skrivet av Admin, 2015-05-28</p>
+                </section>
+                <section>
+                    <h2>Lorem Ipsum</h2>
+                    <div class="bilditext"><img src="css/img/bilditxt.png" width="250" height="250"></div><p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer congue eros sit amet posuere finibus. Quisque at velit sit amet lectus semper porta sit amet non lorem. Duis efficitur feugiat tortor. Mauris tempus sapien eget sollicitudin commodo. Quisque fringilla urna quis ligula congue posuere. Fusce sit amet dolor elementum, fringilla sem eu, ultricies neque. Vivamus quis ligula leo. Phasellus mattis velit at tortor egestas volutpat. Sed libero mi, bibendum nec nulla vel, laoreet congue diam. Quisque dapibus nibh et pellentesque tempor.
 
-    Etiam at sapien in felis tristique viverra. Duis hendrerit velit non dapibus egestas. Sed commodo velit eu purus fringilla dictum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum purus ex, efficitur nec pharetra nec, lacinia id orci. Nullam et nibh sed libero tincidunt hendrerit. Sed nec sagittis sapien. Vivamus vel nisi mollis, rhoncus eros non, euismod quam.
+                        Etiam at sapien in felis tristique viverra. Duis hendrerit velit non dapibus egestas. Sed commodo velit eu purus fringilla dictum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum purus ex, efficitur nec pharetra nec, lacinia id orci. Nullam et nibh sed libero tincidunt hendrerit. Sed nec sagittis sapien. Vivamus vel nisi mollis, rhoncus eros non, euismod quam.
 
-    Quisque mattis metus mauris, non lacinia massa volutpat at. Vestibulum sagittis, libero vitae placerat vulputate, arcu purus pellentesque nisi, vel tempor felis dolor at mi. Nullam condimentum augue ullamcorper tortor rutrum consectetur. In eu nibh a ex ornare scelerisque ut pharetra tellus. Duis congue nulla luctus leo pulvinar varius. Proin faucibus velit et urna volutpat dapibus. Nulla ut felis et nibh semper aliquet id accumsan est.
+                        Quisque mattis metus mauris, non lacinia massa volutpat at. Vestibulum sagittis, libero vitae placerat vulputate, arcu purus pellentesque nisi, vel tempor felis dolor at mi. Nullam condimentum augue ullamcorper tortor rutrum consectetur. In eu nibh a ex ornare scelerisque ut pharetra tellus. Duis congue nulla luctus leo pulvinar varius. Proin faucibus velit et urna volutpat dapibus. Nulla ut felis et nibh semper aliquet id accumsan est.
 
-    Nam non convallis turpis. Vestibulum efficitur tempor enim in gravida. Quisque sit amet leo vel justo tristique vulputate. Aliquam sit amet purus sed metus cursus elementum. Nullam a malesuada sem. Integer gravida varius nisi, vel porta nisl tincidunt eu. Nunc gravida semper lorem, quis cursus diam interdum at. Vestibulum id ultrices ipsum.
+                        Nam non convallis turpis. Vestibulum efficitur tempor enim in gravida. Quisque sit amet leo vel justo tristique vulputate. Aliquam sit amet purus sed metus cursus elementum. Nullam a malesuada sem. Integer gravida varius nisi, vel porta nisl tincidunt eu. Nunc gravida semper lorem, quis cursus diam interdum at. Vestibulum id ultrices ipsum.
 
-    Nulla facilisi. Vivamus luctus massa tortor, vel fermentum est mattis vel. Proin imperdiet leo sit amet egestas auctor. Etiam tempor nulla a erat bibendum, ut iaculis velit hendrerit. Cras ac neque sed dui posuere imperdiet. Curabitur luctus lectus vel elit hendrerit pellentesque. Nullam aliquet vulputate odio at tristique. Phasellus arcu sapien, aliquam in felis in, convallis aliquet massa. Sed quis lectus interdum massa dignissim luctus fermentum quis lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum scelerisque pulvinar laoreet. Sed nec metus iaculis, euismod nunc non, porta dolor. Sed vel pharetra sapien. Suspendisse consectetur neque vel tincidunt vehicula.
+                        Nulla facilisi. Vivamus luctus massa tortor, vel fermentum est mattis vel. Proin imperdiet leo sit amet egestas auctor. Etiam tempor nulla a erat bibendum, ut iaculis velit hendrerit. Cras ac neque sed dui posuere imperdiet. Curabitur luctus lectus vel elit hendrerit pellentesque. Nullam aliquet vulputate odio at tristique. Phasellus arcu sapien, aliquam in felis in, convallis aliquet massa. Sed quis lectus interdum massa dignissim luctus fermentum quis lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum scelerisque pulvinar laoreet. Sed nec metus iaculis, euismod nunc non, porta dolor. Sed vel pharetra sapien. Suspendisse consectetur neque vel tincidunt vehicula.
 
-    Vestibulum placerat consectetur metus eget egestas. Curabitur posuere, ex a accumsan ullamcorper, nunc elit suscipit libero, fringilla pretium tortor ligula eu libero. Cras tellus est, interdum sit amet sodales ac, porttitor non libero. Quisque id rutrum risus, et egestas elit. Duis nec mauris eu elit finibus rutrum congue rhoncus purus. Aenean in nulla eu neque sollicitudin aliquam. Fusce varius purus augue, sit amet ultricies augue dignissim in. Vivamus vestibulum auctor tellus, eu egestas arcu fermentum quis. Proin iaculis malesuada sem eget faucibus. Phasellus mollis dapibus felis vel porta. Aenean tempor elementum vulputate. Praesent eget risus at felis rhoncus sagittis ac ut massa. Sed sit amet ipsum tempus, consectetur dolor at, convallis eros. Sed eu metus nec sapien fringilla convallis.
-</p>
-            </section>
+                        Vestibulum placerat consectetur metus eget egestas. Curabitur posuere, ex a accumsan ullamcorper, nunc elit suscipit libero, fringilla pretium tortor ligula eu libero. Cras tellus est, interdum sit amet sodales ac, porttitor non libero. Quisque id rutrum risus, et egestas elit. Duis nec mauris eu elit finibus rutrum congue rhoncus purus. Aenean in nulla eu neque sollicitudin aliquam. Fusce varius purus augue, sit amet ultricies augue dignissim in. Vivamus vestibulum auctor tellus, eu egestas arcu fermentum quis. Proin iaculis malesuada sem eget faucibus. Phasellus mollis dapibus felis vel porta. Aenean tempor elementum vulputate. Praesent eget risus at felis rhoncus sagittis ac ut massa. Sed sit amet ipsum tempus, consectetur dolor at, convallis eros. Sed eu metus nec sapien fringilla convallis.
+                    </p>
+                </section>
+            </div>
+            <footer>
+                <p>Ansvarig för materialet på denna sida är Alen Adzemovic</p>
+            </footer>
         </div>
-        <footer>
-            <p>Ansvarig för materialet på denna sida är Alen Adzemovic</p>
-        </footer>
     </div>
-
 </body>
 
 </html>
