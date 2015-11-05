@@ -1,15 +1,16 @@
 body{
     background-color:#e0e0e0;
+	margin:0;
+	padding-top:1%;
 }
 
 #wrapper{
     background-color:#8EE3CC;
-    width:75%;
+    width:65%;
     height:auto;
-    margin-left:12.5%;
-    margin-right:12.5%;
+	margin:auto;
     min-width: 25%;
-    overflow:auto;
+    overflow:hidden;
 }
 
 footer{
@@ -21,10 +22,9 @@ footer{
 }
 
 nav {
-    margin-left: 1%;
+    margin-left: 3%;
     overflow: hidden;
     margin-top: 1%;
-    margin-right: 1%;
     width: 20%;
     float: left;
     list-style-type: none;
@@ -36,21 +36,27 @@ nav a{
 }
 
 header{
-    margin-left:1%;
-    margin-right:1%;
-    background-color:#8EE3FE;
-    margin-top:1%;
+	padding-top:2%;
+	width:100%;
+	margin:auto;
+}
+
+header a{
+	display:block;
+}
+
+header img {
+	width:100%;
 }
 
 #content{
-    width:75%;
-    margin-right:1%;
+    width:70%;
     margin-top:1%;
     background-color:yellow;
     float:right;
     overflow:hidden;
     margin-bottom:1%;
-    margin-left:1%;
+	margin-right:3%;
 }
 
 .active{
@@ -73,11 +79,6 @@ nav a:hover{
     background-color:blue;
 }
 
-form{
-    width:50%;
-    align-content:center;
-}
-
 #content dl,p,h3,a{
     margin-left:3%;
     margin-right:3%;
@@ -88,9 +89,10 @@ h1{
 }
 
 #content form{
-    margin-left:25%;
-    margin-right:25%;
+	width:50%;
+	margin:auto;
     margin-bottom:1%;
+	align-content:center;
 }
 
 p{
@@ -102,7 +104,7 @@ video{
 }
 
 h2{
-        background:url("img/css/scroll.png") no-repeat;
+    background:url("img/css/scroll.png") no-repeat;
 	padding-left:25px;
     border-bottom: 1px solid black;
     margin-left:1%;
@@ -117,12 +119,13 @@ section p{
     margin-left:3%;
 }
 
-#magictable{
-    float:right;
-    overflow:hidden;
-    border: 1px solid red;
-    position:fixed;
-    top:200px;
-    right:260px;
-    overflow:hidden;
+.tabell {
+	width:325px;
+	padding-right:3%;
+	float:right;
+}
+
+.tabell th, td{
+    width: 50%;
+	background-color:cyan;
 }
