@@ -29,6 +29,52 @@ nav {
     float: left;
     list-style-type: none;
 }
+#start {
+	background: url('img/css/sprite.png') no-repeat 0 0px;
+	width: 24px;
+	height: 22px;
+	padding-left:30px;
+}
+
+#lab {
+	background: url('img/css/sprite.png') no-repeat 0 -97px;
+	width: 24px;
+	height: 22px;
+	padding-left:30px;
+}
+
+
+#bio {
+	background: url('img/css/sprite.png') no-repeat -1px -192px; 
+	width: 22px;
+	height: 24px;
+	padding-left:30px;
+}
+
+#contact {
+	background: url('img/css/sprite.png') no-repeat 0 -288px;
+	width: 24px;
+	height: 24px;
+	padding-left:30px;
+}
+
+#start:hover{
+	background-position:0 -49px;
+
+}
+
+#bio:hover{
+	background-position:-1px -240px;
+}
+
+#lab:hover{
+	background-position: 0 -145px;
+}
+
+#contact:hover{
+	background-position: 0 -336px;
+}
+
 nav a{
     font-size:25px;
     font-weight:bold;
