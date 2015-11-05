@@ -191,3 +191,15 @@ nav li a{
 aside {
 	padding-left:3%;
 }
+
+article section{
+	Border:1px solid black;
+	width:85%;
+	margin-left:15%;
+}
+
+h4{
+    background:url("img/css/task.png") no-repeat;
+	padding-left:30px;
+    margin-left:1%;
+}
