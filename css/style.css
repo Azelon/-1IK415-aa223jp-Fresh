@@ -25,16 +25,18 @@ nav {
     margin-left: 3%;
     overflow: hidden;
     margin-top: 1%;
-    width: 22%;
+    width: 25%;
     float: left;
     list-style-type: none;
 }
 #start {
+	background-color:green;
 	background: url('img/css/sprite.png') no-repeat 0 0px;
 	width: 24px;
 	height: 22px;
 	padding-left:30px;
 }
+
 
 #lab {
 	background: url('img/css/sprite.png') no-repeat 0 -97px;
@@ -42,7 +44,6 @@ nav {
 	height: 22px;
 	padding-left:30px;
 }
-
 
 #bio {
 	background: url('img/css/sprite.png') no-repeat -1px -192px; 
@@ -75,12 +76,6 @@ nav {
 	background-position: 0 -336px;
 }
 
-nav a{
-    font-size:25px;
-    font-weight:bold;
-	display:block;
-}
-
 header{
 	padding-top:2%;
 	width:100%;
@@ -96,21 +91,13 @@ header img {
 }
 
 #content{
-    width:70%;
+    width:65%;
     margin-top:1%;
     background-color:yellow;
     float:right;
     overflow:hidden;
     margin-bottom:1%;
 	margin-right:3%;
-}
-
-.active{
-    background-color:black;
-	width:100%;
-	display:block;
-	padding-left:10px;
-	margin:0;
 }
 
 nav ul{
@@ -120,14 +107,17 @@ nav ul{
 }
 
 nav li{
-    left:0;
-    margin-left:0;
-    background-color:green;
-    display:block;
+	padding-bottom:10px;
+	background-color:green;
+}
+
+nav .active li {
+	background-color:black;
 }
 
 nav li:hover{
     background-color:blue;
+	font-weight:bold;
 }
 
 #content dl,p,h3,a{
@@ -168,6 +158,11 @@ h2{
     margin-right:1%;
 }
 
+#warp{
+    float:right;
+    margin-right:1%;
+}
+
 section p{
     margin-left:3%;
 }
@@ -180,4 +175,15 @@ section p{
 
 .tabell th, td{
 	background-color:cyan;
+}
+
+nav li a{
+	font-size:1.1em;
+    display:block;
+    text-decoration:none;
+    color:#E3DDCC;
+}
+
+#hcard-Alen-Lalko-Adzemovic{
+	padding-left:3%;
 }
