@@ -1,0 +1,55 @@
+body {
+	background-color:#ab6c65;
+	font-family:'Just Another Hand', italic;
+	font-size:29px;
+}
+
+img {
+	width:150px;
+}
+
+#images {
+	float:left;
+	padding-top:150px;
+	padding-left:200px;
+	max-width:1000px;
+}
+
+a {
+	transition-duration:0.75s;
+    transition-property:all;
+    transition-timing-function:ease;
+	text-align:center;
+	color:red;
+	display:block;
+	background-color:white;
+	float:left;
+	padding:25px;
+	text-decoration:none;
+	box-shadow:10px 5px 5px #FF283F;
+	border:1px solid red;
+}
+
+a:nth-child(odd) {
+	transform:rotate(-20deg);
+	font-size:32px;
+}
+
+a:nth-child(even) {
+	transform:rotate(20deg);
+	font-size:32px;
+
+}
+
+a:after {
+   content: attr(title);
+   display: block;
+}
+
+a:hover,  a:focus {
+	transform: rotate(0deg);
+	transform:  scale(1.75);
+	z-index: 1;
+	position: relative;
+	box-shadow: 30px 25px 25px black;	
+}
