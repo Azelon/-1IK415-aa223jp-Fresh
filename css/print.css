@@ -1,7 +1,51 @@
-.noprint{
-    display:none;
+* {
+	page-break-after: auto;	
 }
 
-.printheader{
-    background-image:url("img/printheader.png");
+p {
+	font-size:19px;
+	font-family:arial;
 }
+
+dl,li {
+	font-size:19px;
+	font-family:arial;
+}
+h2 {
+	font-size:23;
+}
+
+#wrapper{
+	width:95%;
+	float:left;
+	padding-right:175px;
+}
+
+nav ul,nav li,nav a, nav{
+	display:none;
+}
+
+header img{
+	display:none
+}
+
+video {
+	display:none;
+}
+
+.list li{
+	font-size:17px;
+}
+.bilditext{
+	display:none;
+}
+
+.tabell{
+	padding-top:50px;
+}
+a:link:after, a:visited:after {
+	content:" [" attr(href) "] "; 
+}
+
+
+/*url("img/printlogo.png") no-repeat !important;*/

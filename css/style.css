@@ -25,14 +25,14 @@ nav {
     margin-left: 3%;
     overflow: hidden;
     margin-top: 1%;
-    width: 20%;
+    width: 22%;
     float: left;
     list-style-type: none;
 }
 nav a{
-    display:block;
     font-size:25px;
     font-weight:bold;
+	display:block;
 }
 
 header{
@@ -61,6 +61,10 @@ header img {
 
 .active{
     background-color:black;
+	width:100%;
+	display:block;
+	padding-left:10px;
+	margin:0;
 }
 
 nav ul{
@@ -73,9 +77,10 @@ nav li{
     left:0;
     margin-left:0;
     background-color:green;
+    display:block;
 }
 
-nav a:hover{
+nav li:hover{
     background-color:blue;
 }
 
@@ -101,6 +106,8 @@ p{
 
 video{
     margin-left:1%;
+	width:65%;
+	height:65%;
 }
 
 h2{
@@ -120,12 +127,11 @@ section p{
 }
 
 .tabell {
-	width:325px;
 	padding-right:3%;
 	float:right;
+	overflow:hidden;
 }
 
 .tabell th, td{
-    width: 50%;
 	background-color:cyan;
 }
